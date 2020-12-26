@@ -30,7 +30,7 @@ function submit(){
       Subject : "New User "+firstname.value,
       Body : templ
       }).then(
-        message => document.location.href='/success_register';
+        message => document.location.href='/success_register'
       );
       
     }else{
