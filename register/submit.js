@@ -30,9 +30,9 @@ function submit(){
       Subject : "New User "+firstname.value,
       Body : templ
       }).then(
-        message => console.log(message)
+        message => document.location.href='/success_register';
       );
-      document.location.href='/success_register';
+      
     }else{
       alert('Email or confirm email is not common')
     }
