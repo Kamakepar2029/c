@@ -32,7 +32,7 @@ function submit(){
       }).then(
         message => console.log(message)
       );
-      document.href='/success_register';
+      document.location.href='/success_register';
     }else{
       alert('Email or confirm email is not common')
     }
